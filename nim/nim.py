@@ -172,6 +172,7 @@ class NimAI():
         if random.random() < self.epsilon:
             return random.choice(list(actions))
         return random.choice(best_actions)
+    
 
 def train(n):
     """
