@@ -173,7 +173,6 @@ class NimAI():
             return random.choice(list(actions))
         return random.choice(best_actions)
 
-
 def train(n):
     """
     Train an AI by playing `n` games against itself.
